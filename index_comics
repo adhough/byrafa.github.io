@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nicolas</title>
+  <link rel="icon" href="resources/nicolas_icon.jpg" type="image/x-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="resources/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+
+  <!-- JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+          integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+          crossorigin="anonymous"></script>
+  <script type="text/javascript" src="resources/slick/slick.min.js"></script>
+  <script type="text/javascript" src="resources/js/main.js"></script>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#Author">About the author</a></li>
+        <li><a href="#Characters">Introducing the characters</a></li>
+        <li><a  href="#">Comics</a></li>
+        <li><a  href="#Contact">Contact</a></li>
+      </ul>
+      <img class="navbar-brand navbar-right collapse navbar-collapse" src="resources/logo.jpg">
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <div class="carousel">
+    <div class="jumbotron background-nicolas">
+      <div class="container-fluid">
+        <h1>Rafa  as  Nicolas</h1>
+        <p>I am learning how to write, direct, act and edit to make Nicolas videos.</p>
+      </div>
+    </div>
+    <div class="jumbotron background-atwork">
+      <div class="container-fluid">
+        <h1>Rafa  at  work  on  a  comic</h1>
+        <p>After school and my homework I love working on my comic books.</p>
+      </div>
+    </div>
+    <div class="jumbotron background-emi">
+      <div class="container-fluid">
+        <h1>Emi  as  the  Funny  Bunny</h1>
+        <p>My brother Emi is always ready to help out and he is a great actor.</p>
+      </div>
+    </div>
+    <div class="jumbotron background-videos">
+      <div class="container-fluid">
+        <h1>Rafa videos</h1>
+        <p>Coming soon......</p>
+      </div>
+    </div>
+  </div>
+  <div class="relative-wrapper">
+    <a href="#" class="btn btn-primary btn-lg cta">Jump in</a>
+  </div>
+
+  <!-- Featured Project -->
+  <div class="container featured-project">
+    <div class="row">
+      <h2 <a id="Author" class="col-xs-12">About the author</h2><a>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <div class="image-container">
+          <a href="#"><img src="resources/Rafa_pic.jpg"></a>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-3">
+        <h3>Rafa Hough Casabonne</h3>
+        <p>Rafa lives in London and is 8 years old. His passion is to write comics and sharing them with his friends and family.  After school and finishing my homework he loves to work on his latest Nicolas comic book.</p>
+      </div>
+      <div class="col-xs-6 col-md-3 categories">
+        <h3>Nicolas Collection so far....</h3>
+        <ul>
+          <li>Nicolas</li>
+          <li>Nicolas and the time machine</li>
+          <li>Nicolas and the clay monster</li>
+          <li>Nicolas and the Loch Ness Monster</li>
+          <li>Nicolas and the T-REX</li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Projects -->
+  <div class="container">
+    <div class="row">
+      <h2 <a id="Characters" class="col-xs-12">Introducing the characters</a></h2>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-4 project">
+        <div class="image-container">
+          <a href="#"><img src="resources/images/nicolas_icon.jpg"></a>
+        </div>
+        <h3>Nicolas</h3>
+
+        <p>Nicolas is 9 and a half years old and lives in Scotland.  His friends and family love him......but villains hate when he turns into a Superhero!</p>
+      </div>
+      <div class="col-xs-12 col-sm-4 project">
+        <div class="image-container">
+          <a href="#"><img src="resources/images/funny_bunny_icon.jpg"></a>
+        </div>
+        <h3>Funny Bunny</h3>
+
+        <p>Every Superhero needs a side-kick and there is none better or funnier than the Funny Bunny.</p>
+      </div>
+      <div class="col-xs-12 col-sm-4 project">
+        <div class="image-container">
+          <a href="#"><img src="resources/images/villains.jpg"></a>
+        </div>
+        <h3>Villains</h3>
+
+        <p>Nicolas regularly battles with a nasty group of villains to save the day.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Help -->
+  <div <a id="Contact" class="container-fluid help"></a>
+    <strong>Want to contact Rafa?  Do you have suggestions to improve this website?</strong>
+    <p>Please send an email to adhough@hotmail.com.</p>
+    <a href="#" class="btn btn-primary btn-lg">Contact</a>
+  </div>
+</body>
+</html>
