@@ -5,19 +5,23 @@ html {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
   line-height: 1.4;
-}
+  }
+
 
 h2 {
   font-size: 1.7rem;
   font-weight: bold;
-  color: #399bd1;
+  color: #C00C0C;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 h3 {
   font-size: 1.3rem;
   font-weight: bold;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: #C00C0C;
 }
 
 img {
@@ -26,20 +30,26 @@ img {
 
 /* Bootstrap Overrides */
 
+.navbar navbar-default navbar-fixed-top {
+  background-color: #FABDBD;
+}
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover {
   background-color: inherit;
-  color: #399bd1;
+  color: #C00C0C;
 }
 
-
+.navbar-default .navbar-nav>li>a{
+  background-color: inherit;
+  color: #C00C0C;
+}
 
 .btn-primary {
   width: 160px;
   padding: 1.3rem 0;
   border: 0;
   margin-top: 2.8rem;
-  background-color: #399bd1;
+  background-color: #C00C0C;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
   transition: .5s box-shadow;
 }
@@ -64,6 +74,7 @@ img {
 .navbar {
   font-size: 1.1rem;
   font-weight: 600;
+  color: #C00C0C;
 }
 
 /* Jumbotron */
@@ -84,29 +95,35 @@ img {
 }
 
 .background-nicolas {
-  background-image: url("../images/rafa_as_nicolas.jpg");
+  background-image: url("../images/Sparks.jpeg");
 }
 
 .background-atwork {
-  background-image: url("../images/rafa_at_work.jpg");
+  background-image: url("../images/rafa_at_work2.jpeg");
 }
 
 .background-emi {
-  background-image: url("../images/funny_bunny.jpg");
+  background-image: url("../images/legendary.jpeg");
 }
 
 .background-videos {
-  background-image: url("../images/nicolas_video.jpg");
+  background-image: url("../images/Robot.jpeg");
 }
 
 .jumbotron h1 {
-  font-family: sans-serif;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
   font-size: 7.1rem;
+  font-weight: bold;
+  font-style: italic;
+
+
 }
 
 .jumbotron p {
   max-width: 51.3rem;
   margin: auto;
+  font-style: italic;
+
 }
 
 .relative-wrapper {
@@ -150,7 +167,11 @@ img {
 }
 
 /* Featured Project */
-
+a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
 .featured-project {
   margin-top: -7rem; /* To account for relatively positioned button */
 }
@@ -192,9 +213,12 @@ img {
   margin-bottom: 1.4rem;
   font-size: 2.5rem;
   font-weight: bold;
+  color: #C00C0C;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 .help p {
   max-width: 42rem;
   margin: auto;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
